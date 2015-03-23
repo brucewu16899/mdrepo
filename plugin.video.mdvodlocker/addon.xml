@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mdvodlocker" version="1.0.0" name="Vodlocker" provider-name="Mucky_Duck">
+<addon id="plugin.video.mdvodlocker" version="1.0.1" name="Vodlocker" provider-name="Mucky_Duck">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
+        <import addon="script.module.metahandler" version="2.5.1"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.2"/>
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -13,4 +17,9 @@
         <description>Stream Your Favourite Movies And TV Shows From The www.vodlocker.us Website Brought To You By Mucky_Duck</description>
         <platform>all</platform>
     </extension>
+	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
+		<info compressed="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
+	</extension>
 </addon>
