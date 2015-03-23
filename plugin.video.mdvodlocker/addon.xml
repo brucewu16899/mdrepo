@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mdvodlocker" version="1.0.0" name="Vodlocker" provider-name="Mucky_Duck">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Movies And Tv From www.vodlocker.us</summary>
+        <description>Stream Your Favourite Movies And TV Shows From The www.vodlocker.us Website Brought To You By Mucky_Duck</description>
+        <platform>all</platform>
+    </extension>
+</addon>
