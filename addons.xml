@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.mdwizard" name="Mucky Ducks Wizard" version="1.0.2" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mucky Ducks Wizard</summary>
+    <description lang="en">Mucky Ducks Wizard provides an easy way to installing addons to your device</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mdvodlocker" version="1.0.1" name="Vodlocker" provider-name="Mucky Duck">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -25,7 +39,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdws" version="1.0.1" name="MD.Watchseries" provider-name="Mucky Duck">
+<addon id="plugin.video.mdws" version="1.0.2" name="MD.Watchseries" provider-name="Mucky Duck">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
