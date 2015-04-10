@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.mdws" version="1.0.2" name="MD.Watchseries" provider-name="Mucky Duck">
+<addon id="plugin.video.mdws" version="1.0.3" name="MD.Watchseries" provider-name="Mucky Duck">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
-        <import addon="script.module.metahandler" version="2.4.0"/>
-        <import addon="script.module.requests" version="1.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
