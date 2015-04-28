@@ -58,10 +58,12 @@ http://aaastream.com</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.mdws" version="1.0.3" name="MD.Watchseries" provider-name="Mucky Duck">
+<addon id="plugin.video.mdws" version="1.0.4" name="MD.Watchseries" provider-name="Mucky Duck">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>
+		<import addon="repository.mdrepo"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -88,10 +90,12 @@ http://aaastream.com</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.streamengine" name="Stream Engine" version="1.0.5" provider-name="Mucky Duck,Stream Engine">
+<addon id="plugin.video.streamengine" name="Stream Engine" version="1.0.6" provider-name="Mucky Duck,Stream Engine">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
