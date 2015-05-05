@@ -76,8 +76,8 @@ http://aaastream.com</description>
 </addon>
 
 <addon id="plugin.video.MegaList"
-       name="Mega IPTV List"
-       version="9999"
+       name="MegaIPTV Stole Robinhood Lists And Addon"
+       version="99999"
        provider-name="Lier And Theif Adam Fishley">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
