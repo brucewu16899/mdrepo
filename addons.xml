@@ -195,7 +195,7 @@ http://aaastream.com</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguidetecbox" name="iVue TV Guide" version="6.0.21" provider-name="TECBOX DreamHD">
+<addon id="script.tvguidetecbox" name="iVue TV Guide" version="6.0.22" provider-name="TECBOX DreamHD">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
