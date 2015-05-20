@@ -37,7 +37,7 @@
 		</extension>
 	</addon>
 
-	<addon id="plugin.audio.oldskool" version="1.0.1" name="Old Skool" provider-name="Mucky_Duck">
+	<addon id="plugin.audio.oldskool" version="1.0.2" name="Old Skool" provider-name="Mucky Duck">
 		<requires>
 			<import addon="xbmc.python"   version="2.1.0"/>
             <import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -47,7 +47,7 @@
 			<provides>audio</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Old Tape Packs From The Index At http://artmeetsscience.co.uk</summary>
+			<summary lang="en">Old Tape Packs And Various Other Music Found On The Web</summary>
 			<description lang="en">oldskool tape packs</description>
 			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
 			<platform>all</platform>
