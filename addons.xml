@@ -58,7 +58,7 @@
 
 <addon
   id="plugin.video.gorillastreams"
-  version="2.0"
+  version="2.1"
   name="Gorilla Streams 2.0"
   provider-name="Gorilla Streams">
   <requires>
