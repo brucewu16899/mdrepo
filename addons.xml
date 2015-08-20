@@ -149,23 +149,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.netmov" version="1.0.6" name="NETMOV" provider-name="Mucky Duck">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver"  version="2.1.2"/>
-		<import addon="repository.mdrepo"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Enjoy Movies And TV Shows From http://netmov.tv/</summary>
-        <description>Movies And TV Shows From http://netmov.tv/</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.5" provider-name="Mucky Duck,Stream Engine">
+<addon id="plugin.video.streamengine" name="Stream Engine" version="1.1.6" provider-name="Mucky Duck,Stream Engine">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.simplejson" version="3.3.0"/>
@@ -179,24 +163,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Top Quality Streaming Source.</summary>
     <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.vdubt25tutorials"
-	name="Vdubt25 Tutorials"
-	version="1.0.2"
-	provider-name="md">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">vdubt25</summary>
-    <description lang="en">Awesome vdubt25 videos from YouTube.</description>
     <platform>all</platform>
   </extension>
 </addon>
