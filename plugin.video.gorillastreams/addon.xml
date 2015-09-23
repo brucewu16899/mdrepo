@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.gorillastreams"
-  version="2.1"
+  version="2.2"
   name="Gorilla Streams 2.0"
   provider-name="Gorilla Streams">
   <requires>
