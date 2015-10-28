@@ -171,7 +171,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.morepower" name="MorePower" version="1.0.0" provider-name="Mucky Duck/MorePower">
+<addon id="plugin.video.morepower" name="MorePower" version="1.0.1" provider-name="Mucky Duck/MorePower">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
