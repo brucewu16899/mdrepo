@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.maaadlivetv"
        name=".MaaaD LIVE TV"
-       version="1"
+       version="2"
        provider-name="Mucky Fucking Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -25,8 +25,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"> copied and pasted just like the thiving c##t who wrote halow tv</summary>
-    <description lang="en">copied and pasted just like the thiving c##t who wrote halow tv</description>
+    <summary lang="en"> copied and pasted just like the thieving c##t who wrote halow tv</summary>
+    <description lang="en">copied and pasted just like the thieving c##t who wrote halow tv</description>
     <platform>all</platform>
   </extension>
 </addon>
