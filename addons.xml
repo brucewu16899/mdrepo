@@ -532,6 +532,40 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.VADER" name="[COLOR red]Vader-Streams©[/COLOR]" version="2.0.0" provider-name="theif">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red]if you buy of this person expect to get ripted off[/COLOR]</summary>
+	<description lang="en_gb">[COLOR red]The Force of Streams![/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vader_movies" name="[COLOR red]Vaders-Movies©[/COLOR]" version="2.0.0" provider-name="robbed by vader">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">this addon is stolen from mucky duck</summary>
+    <description lang="en">
+	</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.welovesoaps" name="We Love Soaps" version="1.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
