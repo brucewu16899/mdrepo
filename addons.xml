@@ -270,25 +270,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mdmoviewb" name="MovieWB" version="1.0.2" provider-name="Mucky Duck">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
-	<import addon="repository.mdrepo" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream content From The moviewb.net WebSite</summary>
-    <description lang="en">Stream Content From The moviewb.net WebSite</description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.mdmtvuk" name="MTV UK" version="1.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -549,42 +530,6 @@
     <summary lang="en">Top Quality Streaming Source.</summary>
     <description lang="en"></description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.VADER" name="[COLOR red]Vader-Streams©[/COLOR]" version="9.9.9" provider-name="theif">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]if you buy of this person expect to get ripted off he is nothing but a theif who dosnt know what he is doing[/COLOR]</summary>
-	<description lang="en_gb">[COLOR red]The Force of Streams![/COLOR]</description>
-    <platform>all</platform>
-	<broken>please dont support theifs</broken>
-  </extension>
-</addon>
-
-<addon id="plugin.video.vader_movies" name="[COLOR red]Vaders-Movies©[/COLOR]" version="3.0.0" provider-name="robbed by vader">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
-	</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">this addon is stolen from mucky duck please dont support theifs</summary>
-    <description lang="en">
-	</description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
-    <platform>all</platform>
-	<broken>this addon was stolen by vader please dont support theifs</broken>
   </extension>
 </addon>
 
