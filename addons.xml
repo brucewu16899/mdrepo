@@ -79,7 +79,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.1.4" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.1.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -90,8 +90,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream Movies From The 123movies.to WebSite</summary>
-    <description lang="en"></description>
+    <summary lang="en">Stream Movies From The 123movies WebSite</summary>
+    <description lang="en">Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
   </extension>
