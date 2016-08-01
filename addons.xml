@@ -605,7 +605,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.welovesoaps" name="We Love Soaps" version="1.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.welovesoaps" name="We Love Soaps" version="1.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
@@ -635,6 +635,19 @@
 		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
 		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.16b" provider-name="Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
 </addon>
 
